@@ -1,3 +1,14 @@
+// In this code snippet, the withdrawTokens function allows the Gnosis Safe contract to execute the withdrawTokens function of the StarRenaming contract. The withdrawTokensData is the encoded data for the function call.
+
+// Make sure to replace contractAddress with the actual address of the deployed StarRenaming contract, and tokenAddress with the address of the ERC20 token used for voting.
+
+// Please note that this code assumes you have already configured and connected to the Gnosis Safe multi-signature wallet in your front-end code. Ensure that you have the correct Gnosis Safe contract address and ABI available for interacting with the wallet.
+
+// Remember to adapt the code according to your specific requirements, including handling responses, error checking, and updating the UI accordingly.
+
+// It's important to thoroughly test and audit your code, especially when dealing with multi-signature control and token voting, to ensure the security and integrity of your application.
+  
+  
   // Create a campaign using Gnosis Safe
   async function createCampaign() {
     const oldStarName = prompt('Enter the old star name');

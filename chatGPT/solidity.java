@@ -1,3 +1,10 @@
+
+//Smart Contract:
+
+// In this updated smart contract, we introduced additional variables and mappings to track participant information, voting counts, and voting status. We also added a token contract instance (token) and a vote threshold (voteThreshold) to determine the number of votes required for a decision.
+
+// The joinCampaign function allows participants to join the campaign, and the vote function enables participants to cast their votes. The renameStar function is restricted to the Gnosis Safe contract, ensuring multi-signature control. The withdrawTokens function allows the Gnosis Safe contract to withdraw tokens from the contract.
+
 // To integrate the Gnosis Safe module with multi-signature control and token voting roles
 
 // SPDX-License-Identifier: MIT
