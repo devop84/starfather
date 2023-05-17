@@ -1,0 +1,11 @@
+OK, so lets create a basic smart contract using gnosis safe module.
+The variables used should be as followed : 
+- the list of participants (including the campain's owner)
+- the old name of the star
+- the new name of the star
+- the status of the votes (boolean)
+
+If the vote is more than 51% than the star is renamed
+Participants are identified with their wallet address
+
+frontend should be in JS
