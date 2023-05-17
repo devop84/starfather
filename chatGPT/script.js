@@ -1,5 +1,5 @@
-// Create a campaign using Gnosis Safe
-async function createCampaign() {
+  // Create a campaign using Gnosis Safe
+  async function createCampaign() {
     const oldStarName = prompt('Enter the old star name');
     const newStarName = prompt('Enter the new star name');
   
